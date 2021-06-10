@@ -14,8 +14,6 @@ function EmployeeTable({ employeeData, sort, filter }) {
         filteredEmployees = employeeData;
     }
 
-    console.log(filteredEmployees)
-
 
     let employeeArray;
     if (sort === 'desc') {
@@ -25,8 +23,6 @@ function EmployeeTable({ employeeData, sort, filter }) {
     } else {
         employeeArray = filteredEmployees;
     }
-
-    let employeeGender;
 
     return (
         <div className="EmployeeTable">

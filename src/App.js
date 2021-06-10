@@ -14,23 +14,14 @@ function App() {
   const [employeeData, setEmployeeData] = useState([]);
 
   useEffect(() => {
-    axios.get('https://randomuser.me/api/?results=10')
+    axios.get('https://randomuser.me/api/?results=30')
       .then((res) => {
         setEmployeeData(res.data.results);
-        console.log(res.data.results)
       })
       .catch((err) => {
         console.error(err);
       })
   }, [])
-
-  useEffect(() => {
-    console.log(`filter state: ${genderFilter}`);
-  }, [genderFilter])
-
-  useEffect(() => {
-    console.log(`sort state: ${alphabeticalSort}`);
-  }, [alphabeticalSort])
 
   const handleFilter = (e) => {
     let gender = e.target.dataset.gender;
