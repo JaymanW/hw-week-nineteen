@@ -59,7 +59,7 @@ function App() {
       </div>
       <AlphabeticalSortBtn sort={alphabeticalSort} sortClick={(e) => handleSort(e)}/>
       {/* DATA TABLE gender={genderFilter} names={namesSort}*/}
-      <EmployeeTable employeeData={employeeData}/>
+      <EmployeeTable employeeData={employeeData} sort={alphabeticalSort} />
     </div>
   );
 }
