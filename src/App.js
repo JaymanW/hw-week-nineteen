@@ -1,15 +1,28 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import './App.css';
+import axios from 'axios';
 
 // COMPONENTS
-import Header from './components/Header'
-import GenderFilterBtn from './components/GenderFilterBtn'
-import AlphabeticalSortBtn from './components/AlphabeticalSortBtn'
-import EmployeeTable from './components/EmployeeTable'
+import Header from './components/Header';
+import GenderFilterBtn from './components/GenderFilterBtn';
+import AlphabeticalSortBtn from './components/AlphabeticalSortBtn';
+import EmployeeTable from './components/EmployeeTable';
 
 function App() {
   const [genderFilter, setGenderFilter] = useState('both');
   const [alphabeticalSort, setAlphabeticalSort] = useState('none');
+  const [employeeData, setEmployeeData] = useState([]);
+
+  useEffect(() => {
+    axios.get('https://randomuser.me/api/?results=10')
+      .then((res) => {
+        setEmployeeData(res.data.results);
+        console.log(res.data.results)
+      })
+      .catch((err) => {
+        console.error(err);
+      })
+  }, [])
 
   useEffect(() => {
     console.log(`filter state: ${genderFilter}`);
@@ -46,7 +59,7 @@ function App() {
       </div>
       <AlphabeticalSortBtn sort={alphabeticalSort} sortClick={(e) => handleSort(e)}/>
       {/* DATA TABLE gender={genderFilter} names={namesSort}*/}
-      <EmployeeTable />
+      <EmployeeTable employeeData={employeeData}/>
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.EmployeeRow {
+    background: #8B008B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    position: relative;
+    min-height: 100px;
+}
+
+.EmployeeRow img {
+    position: absolute;
+    left: 3rem;
+}
+
+.EmployeeRow .employee-cell {
+    position: absolute;
+    right: 3rem;
+}
+
+.EmployeeRow:nth-child(n+2) {
+    margin-top: 1rem;
+}
