@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/hw-week-nineteen/static/css/main.101f4d22.chunk.css",
+    "main.js": "/hw-week-nineteen/static/js/main.8f1b1fad.chunk.js",
+    "main.js.map": "/hw-week-nineteen/static/js/main.8f1b1fad.chunk.js.map",
+    "runtime-main.js": "/hw-week-nineteen/static/js/runtime-main.1d128898.js",
+    "runtime-main.js.map": "/hw-week-nineteen/static/js/runtime-main.1d128898.js.map",
+    "static/js/2.c57f7ce9.chunk.js": "/hw-week-nineteen/static/js/2.c57f7ce9.chunk.js",
+    "static/js/2.c57f7ce9.chunk.js.map": "/hw-week-nineteen/static/js/2.c57f7ce9.chunk.js.map",
+    "index.html": "/hw-week-nineteen/index.html",
+    "static/css/main.101f4d22.chunk.css.map": "/hw-week-nineteen/static/css/main.101f4d22.chunk.css.map",
+    "static/js/2.c57f7ce9.chunk.js.LICENSE.txt": "/hw-week-nineteen/static/js/2.c57f7ce9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d128898.js",
+    "static/js/2.c57f7ce9.chunk.js",
+    "static/css/main.101f4d22.chunk.css",
+    "static/js/main.8f1b1fad.chunk.js"
+  ]
+}
