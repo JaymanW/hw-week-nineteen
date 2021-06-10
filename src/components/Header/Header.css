@@ -1,0 +1,13 @@
+.Header {
+    background: #8B008B;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header h1 {
+    text-align: center;
+}
