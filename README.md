@@ -1,8 +1,8 @@
-# hw-week-seventeen
+# hw-week-nineteen
   
   ## Project Description
 
-  This project is a simple workout tracker utilizing front-end technologies including JavaScript, and React.js. After a quick installation, you can run this app locally or visit the demo linked below.
+  This project is a simple employee tracker application utilizing front-end technologies including JavaScript, and React.js. After a quick installation, you can run this app locally or visit the demo linked below.
   
   A live demo of this application can be found at: https://jaymanw.github.io/hw-week-nineteen/
 
