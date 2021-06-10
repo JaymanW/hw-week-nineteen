@@ -1,0 +1,9 @@
+.GenderFilterBtn {
+    font-size: 2.5rem;
+    color: #fff;
+    border: none;
+    background: rgba(139, 0, 139, 0.7);
+    padding: 0.5rem 1.25rem;
+    border-radius: 50px;
+    cursor: pointer;
+}

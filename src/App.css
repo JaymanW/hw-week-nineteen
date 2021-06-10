@@ -7,3 +7,16 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.filter-cnt {
+  width: max-content;
+  margin: 0 auto;
+}
+
+.filter-cnt {
+  margin-top: 2rem;
+}
+
+.GenderFilterBtn:nth-child(n+2) {
+  margin-left: 1.5rem;
+}
